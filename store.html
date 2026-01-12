@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>MorStore</title>
+</head>
+<body>
+<header>
+<h1>🛒 متجري الاحترافي</h1>
+<p>الدفع عند الاستلام</p>
+</header>
+<div class="container">
+  <div class="products" id="products"></div>
+  <div class="cart">
+    <h2>🧾 السلة</h2>
+    <div id="cart-items"></div>
+    <h3>المجموع: $<span id="total">0</span></h3>
+    <h2>📋 معلومات الزبون</h2>
+    <input type="text" id="name" placeholder="الاسم الكامل">
+    <input type="tel" id="phone" placeholder="رقم الهاتف">
+    <textarea id="address" placeholder="العنوان"></textarea>
+    <button class="checkout" onclick="sendWhatsApp()">تأكيد الطلب عبر واتساب</button>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
